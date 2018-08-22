@@ -13,12 +13,9 @@ def perfect(num):
         if(num%i==0):
             n=n+i
     if(n==num):
-        print('number is perfect number')
-    else:
-        print('number is not a perfect number')
-        
-num=int(input('enter number '))
-perfect(num)
+        print(num,'is perfect number')
+for i in range (1,1001):
+    perfect(i)
 
 #Q.3- Print multiplication table of n using loops, where n is an integer and is taken as input from the user.
 n=int(input("enter number to print it's multiplicatin table "))
